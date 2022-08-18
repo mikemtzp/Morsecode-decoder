@@ -19,7 +19,7 @@ def decode_word(morse_word)
   word
 end
 
-def decode_sentence(morse_sentence)
+def decode(morse_sentence)
   sentence = ''
   morse_sentence.split('   ').each do |w|
     sentence << "#{decode_word(w)} "
@@ -28,5 +28,6 @@ def decode_sentence(morse_sentence)
 end
 
 puts decode_char('--')
-puts decode_sentence('-- -.--   -. .- -- .')
-puts decode_sentence('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
+puts decode_word('-- -.--')
+puts decode('-- -.--   -. .- -- .')
+puts decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
