@@ -1,5 +1,5 @@
 # Morse code decoder
-This project contains three methods to decode any [Morse code](https://en.wikipedia.org/wiki/Morse_code) you insert on it. From a single letter, a word, or even a whole sentence.
+> This project contains three methods to decode any [Morse code](https://en.wikipedia.org/wiki/Morse_code) you insert on it. From a single letter, a word, or even a whole sentence.
 
 ## 🛠️ Built With
 
